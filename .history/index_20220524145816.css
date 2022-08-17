@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital@1&family=Lora:ital@1&family=Quicksand:wght@300;400&display=swap');
+
+.container{
+    display: flex;
+    
+}
+p{
+    font-family: 'Quicksand', sans-serif
+}
+.texto-inicial{
+    margin-left: 41px;
+}
+.imagem img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.textos{
+    margin-left: 40px;
+    font-family: 'Quicksand', sans-serif
+}
+.nome-usuario{
+    margin-left: 10px;
+}
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 90%;
+    margin: 28px auto; 
+    font-family: 'Quicksand', sans-serif;
+}
+.tabela{
+    border-radius: 2%;
+
+}
+table th{
+    border: 1px solid black;
+    color:black;
+    font-size: 18px;
+    padding: 2px;
+
+}
+table td {
+    text-align: center;
+    border: 1px solid black;
+    color: black;
+    font-size: 17px;
+    width: 8%;
+    padding: 5px;
+}
+.tabela-imagem{
+    display:flex
+}
+.tabela-imagem .textos{
+    margin: 10px;
+}
+.tabela-imagem .imagem{
+    margin: 7px;
+    text-align: center;
+}
+.imagens-time{
+    display: flex;
+    gap: 35px;
+}
+.imagens-time .imagem p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.imagem .batata{
+    width: 100%;
+    text-align: center;
+}
+

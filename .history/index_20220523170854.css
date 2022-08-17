@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    
+}
+.imagem img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.textos{
+    margin-left: 40px;
+}
+.nome-usuario{
+    margin-left: 10px;
+}
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 90%;
+    margin: 28px auto; 
+    border-radius: 2%;
+}
+table th{
+    border: 1px solid black;
+    color:black;
+    font-size: 18px;
+    padding: 2px;
+
+}
+table td {
+    text-align: center;
+    border: 1px solid black;
+    color: black;
+    font-size: 17px;
+    width: 10%;
+    padding: 5px;
+}
+.tabela-imagem{
+    display:flex
+}
+.tabela-imagem .textos{
+    margin: 10px;
+}
+.tabela-imagem .imagem{
+    margin: 7px;
+}
+.imagens-time{
+display: flex;
+}
+
+
